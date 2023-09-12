@@ -1,0 +1,25 @@
+.accordion_control {
+	width: 100%;
+	background-color: transparent;
+}
+
+.accordion_title {
+	font-weight: bold;
+	font-size: 1.17em;
+}
+
+.accordion_content {
+	display: none;
+}
+
+.open .accordion_content {
+	display: block;
+}
+
+.open .accordion_icon {
+	transform: rotate(45deg);
+}
+
+.accordion_control {
+	cursor: pointer;
+}
